@@ -3,10 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/melia/AndroidStudioProjects/04AndroidRecycleView/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/Users/melia/AndroidStudioProjects/04AndroidRecycleView/app/src/main/res/layout/activity_detail.xml" value="0.33" />
+        <entry key="..\:/Users/melia/AndroidStudioProjects/04AndroidRecycleView/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/melia/AndroidStudioProjects/04AndroidRecycleView/app/src/main/res/layout/activity_recipe_page.xml" value="0.25" />
+        <entry key="..\:/Users/melia/AndroidStudioProjects/04AndroidRecycleView/app/src/main/res/layout/content_main.xml" value="0.22" />
+        <entry key="..\:/Users/melia/AndroidStudioProjects/04AndroidRecycleView/app/src/main/res/layout/content_recipe_page.xml" value="0.22" />
         <entry key="..\:/Users/melia/AndroidStudioProjects/04AndroidRecycleView/app/src/main/res/layout/fragment_first.xml" value="0.2" />
         <entry key="..\:/Users/melia/AndroidStudioProjects/04AndroidRecycleView/app/src/main/res/layout/fragment_second.xml" value="0.2" />
+        <entry key="..\:/Users/melia/AndroidStudioProjects/04AndroidRecycleView/app/src/main/res/layout/layout_design_adapter.xml" value="0.33" />
+        <entry key="..\:/Users/melia/AndroidStudioProjects/04AndroidRecycleView/app/src/main/res/layout/recipe.xml" value="0.5" />
         <entry key="..\:/Users/melia/AndroidStudioProjects/04AndroidRecycleView/app/src/main/res/layout/wordlist_item.xml" value="0.15311004784688995" />
+        <entry key="..\:/Users/melia/AndroidStudioProjects/04AndroidRecycleView/app/src/main/res/menu/menu_main.xml" value="0.19947916666666668" />
       </map>
     </option>
   </component>
