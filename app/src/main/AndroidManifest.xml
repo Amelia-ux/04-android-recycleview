@@ -16,10 +16,6 @@
         android:theme="@style/Theme.04AndroidRecycleView"
         tools:targetApi="31">
         <activity
-            android:name=".DetailActivity"
-            android:exported="false"
-            android:parentActivityName=".MainActivity"/>
-        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
