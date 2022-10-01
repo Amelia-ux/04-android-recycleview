@@ -1,10 +1,10 @@
 # 04-android-recycleview
 
 ## Task 1 : Create a new project and dataset
-![Screenshot Dashboard Oracle](images/Task1.jpeg)
+<img src="images/Task1.jpeg" style="width:300px;"/>
 
 ## Task 2 and 3 : Make the list interactive 
-![Screenshot Dashboard Oracle](images/Task3.jpeg)
+<img src="images/Task3.jpeg" style="width:300px;"/>
 
 ## Homework
 - Use separate TextView elements and styling for the recipe name and description.
@@ -12,5 +12,5 @@
 - As an option, add an image for the finished dish to each recipe.
 - Clicking the Up button takes the user back to the list of recipes.
 
-![Screenshot Dashboard Oracle](images/recipeList.jpeg)
-![Screenshot Dashboard Oracle](images/recipeDesc.jpeg)
+<img src="images/recipeList.jpeg" style="width:300px;"/>
+<img src="images/recipeDesc.jpeg" style="width:300px;"/>
