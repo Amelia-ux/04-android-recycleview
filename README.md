@@ -1,4 +1,7 @@
 # 04-android-recycleview
+Amelia Marshanda S
+2041720041
+TI-3B/07
 
 ## Task 1 : Create a new project and dataset
 <img src="images/Task1.jpeg" style="width:300px;"/>
