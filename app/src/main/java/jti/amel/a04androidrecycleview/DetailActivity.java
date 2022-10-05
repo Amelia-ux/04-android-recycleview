@@ -35,7 +35,7 @@ public class DetailActivity extends AppCompatActivity {
             Glide.with(this).load(getIntent().getIntExtra("foto_makanan", 0)).into(imageView);
         }
 
-       getIncomingExtra();
+        getIncomingExtra();
     }
 
     private void getIncomingExtra(){
