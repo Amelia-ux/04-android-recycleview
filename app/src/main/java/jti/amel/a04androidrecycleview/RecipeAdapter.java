@@ -14,7 +14,11 @@ import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.bumptech.glide.Glide;
+
 import java.util.ArrayList;
+
+import de.hdodenhof.circleimageview.CircleImageView;
 
 public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.ViewHolder> {
     private ArrayList<String> namaMakanan = new ArrayList<>();
@@ -44,6 +48,7 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.ViewHolder
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+        Glide.with(context).asBitmap().load(fotoMakanan.get(position)).into(holder.profileImage);
         holder.recipeMenu.setText(namaMakanan.get(position));
         holder.recipeDescription.setText(descMakanan.get(position));
         holder.constraintLayout.setOnClickListener(new View.OnClickListener() {
@@ -70,12 +75,14 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.ViewHolder
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder{
+        CircleImageView profileImage;
         TextView recipeMenu;
         TextView recipeDescription;
         ConstraintLayout constraintLayout;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
+            profileImage = itemView.findViewById(R.id.profileImage);
             recipeMenu = itemView.findViewById(R.id.recipeMenu);
             recipeDescription = itemView.findViewById(R.id.recipeDescription);
             constraintLayout = itemView.findViewById(R.id.constraintLayout);
